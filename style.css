@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* nav */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 2rem;
+    background-color: black;
+    color: rgb(255, 254, 254);
+}
+
+nav li {
+    list-style: none;
+}
+
+
+
+nav img {
+    width: 7rem;
+    height: 3.6rem;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+
+input {
+    width: 35rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    outline: none;
+    border: none;
+    margin-top: 1rem;
+    margin-bottom: 1.1rem;
+    padding: 0.8rem;
+    font-size: 1.3rem;
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.515);
+    color: white;
+}
+
+
+/* first part */
+
+
+.flex {
+    display: flex;
+}
+
+#box1 {
+    background-color: black;
+    width: 20%;
+    height: 60rem auto;
+    padding: 0 1rem;
+    padding-top: 0.8rem;
+    overflow: auto;
+}
+
+.flex #box1{
+    overflow: auto;
+}
+
+
+#line {
+    width: 15rem;
+    height: 0.1rem;
+    background-color: rgba(77, 72, 72, 0.829);
+}
+
+
+#box1 ul {
+    color: white;
+    flex-direction: column;
+    padding: 0 0.2rem;
+}
+
+#box1 ul li span {
+    margin-right: 1.5rem;
+}
+
+#box1 ul li:hover {
+    background-color: rgba(36, 35, 35, 0.853);
+    color: rgb(255, 255, 255);
+    width: 10.5rem;
+    border-radius: 0.8rem;
+}
+
+/* second */
+
+#box2 {
+    background-color: rgb(0, 0, 0);
+    width: 80%;
+    height: 60rem auto;
+}
+
+#first {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 1.3rem;
+    flex-wrap: wrap;
+}
+
+#first button {
+    border-radius: 0.8rem;
+    line-height: 2.2rem;
+    background-color: rgba(32, 31, 31, 0.689);
+    color: white;
+    padding: 0 1rem;
+    outline: none;
+    border: none;
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+    cursor: pointer;
+}
+
+#video {
+    display: flex;
+    gap: 1rem;
+    margin-left: 1.5rem;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+#video video {
+    width: 23rem;
+    height: 13rem;
+    margin-left: 0 1rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+
+}
+
+#videos {
+    display: flex;
+    gap: 1rem;
+    margin-top: 8rem;
+    margin-left: 1.5rem;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+
+#videos video {
+    margin-top: 2rem;
+    width: 23rem;
+    height: 13rem;
+    margin-left: 0 1rem;
+    border-radius: 1rem;
+}
